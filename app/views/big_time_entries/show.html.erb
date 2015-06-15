@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Id:</strong>
+  <%= @big_time_entry.id %>
+</p>
+
+<p>
+  <strong>Person:</strong>
+  <%= @big_time_entry.person %>
+</p>
+
+<p>
+  <strong>Hours:</strong>
+  <%= @big_time_entry.hours %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @big_time_entry.date %>
+</p>
+
+<p>
+  <strong>Comment:</strong>
+  <%= @big_time_entry.comment %>
+</p>
+
+<%= link_to 'Edit', edit_big_time_entry_path(@big_time_entry) %> |
+<%= link_to 'Back', big_time_entries_path %>
